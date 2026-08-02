@@ -20,19 +20,13 @@ export default function HomePage() {
         </div>
       </header>
 
-       <div style={{ backgroundColor: '#073502', padding: '12px 0', overflow: 'hidden', whiteSpace: 'nowrap', width: '100%' }}>
-        <marquee behavior="scroll" direction="left" scrollamount="8" style={{ fontSize: '22px', fontWeight: 'bold', color: '#ffffff' }}>
-          Heza Hub bright future with clean environment &nbsp;&nbsp;&nbsp;&nbsp; • &nbsp;&nbsp;&nbsp;&nbsp; Heza Hub bright future with clean environment &nbsp;&nbsp;&nbsp;&nbsp; • &nbsp;&nbsp;&nbsp;&nbsp; Heza Hub bright future with clean environment
-        </marquee>
-      </div>
-
       {/* 2. MOVING TEXT MARQUEE */}
       <div style={{ backgroundColor: '#052a17', padding: '15px 0', overflow: 'hidden', whiteSpace: 'nowrap', width: '100%' }}>
         <div style={{
           display: 'inline-block',
           fontSize: '22px',
           fontWeight: 'bold',
-          color: '#d01111',
+          color: '#ffffff',
           paddingLeft: '100%',
           animation: 'marquee-scroll 20s linear infinite'
         }}>
@@ -45,6 +39,8 @@ export default function HomePage() {
           }
         `}</style>
       </div>
+
+      {/* 3. HERO SECTION */}
       <section style={{
         backgroundImage: 'linear-gradient(rgba(248, 250, 252, 0.4), rgba(248, 250, 252, 0.4)), url("/back.png")',
         backgroundSize: 'cover',
@@ -66,7 +62,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 4. SCROLLABLE DETAILS CONTENT (Pushed Below the Fold) */}
+      {/* 4. SCROLLABLE DETAILS CONTENT */}
       <div style={{ backgroundColor: '#F8FAFC', width: '100%', borderTop: '2px solid #E2E8F0' }}>
         <main style={{ maxWidth: '1200px', margin: '0 auto', padding: '60px 20px', display: 'grid', gridTemplateColumns: '1fr 350px', gap: '50px' }}>
           
